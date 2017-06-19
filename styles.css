@@ -1,6 +1,14 @@
-.friends{
-    background-color: red;
-}
+
 .friends p{
+    text-transform: uppercase;
+}
+div{
+    width: 100%;
+    height:100%;
+    background-color:red;
+    text-align: center;
+    color:white;
+}
+h3{
     text-transform: uppercase;
 }
