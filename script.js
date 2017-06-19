@@ -1,6 +1,7 @@
 var friends=['Goku','Vegeta','Gohan','Krillen','Bulma']
 
-for(var j=0;j<friends.length;j++){
+function sing(){
+    for(var j=0;j<friends.length;j++){
         for(var i=99;i>0;i--){
             if(i>2){
             console.log(i + ' lines of code in the file, ' + i + ' lines of code; ' + friends[j] + ' strikes one out, clears it all out, ' + (i-1) + ' lines of code in the file.')
@@ -11,3 +12,14 @@ for(var j=0;j<friends.length;j++){
         }
     };
 };
+};
+
+var btn = document.getElementById('my-btn');
+btn.addEventListener('click', sing);
+        
+
+
+
+
+
+
